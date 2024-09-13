@@ -2,6 +2,63 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.1.0](https://github.com/terraform-aws-modules/terraform-aws-route53/compare/v4.0.1...v4.1.0) (2024-09-03)
+
+
+### Features
+
+* Add zone-cross-account-vpc-association submodule ([#109](https://github.com/terraform-aws-modules/terraform-aws-route53/issues/109)) ([3615131](https://github.com/terraform-aws-modules/terraform-aws-route53/commit/36151319b2eb0ea933d043c2eb1c57a403e43095))
+
+## [4.0.1](https://github.com/terraform-aws-modules/terraform-aws-route53/compare/v4.0.0...v4.0.1) (2024-08-31)
+
+
+### Bug Fixes
+
+* Add egress rule update support ([#107](https://github.com/terraform-aws-modules/terraform-aws-route53/issues/107)) ([bbcab64](https://github.com/terraform-aws-modules/terraform-aws-route53/commit/bbcab64009cdc6d4a7236ece331ece4045e14a31))
+
+## [4.0.0](https://github.com/terraform-aws-modules/terraform-aws-route53/compare/v3.1.0...v4.0.0) (2024-08-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* Add primary name server to outputs in modules/zones. Bump AWS provider version to 4 (#108)
+
+### Features
+
+* Add primary name server to outputs in modules/zones. Bump AWS provider version to 4 ([#108](https://github.com/terraform-aws-modules/terraform-aws-route53/issues/108)) ([0fa1069](https://github.com/terraform-aws-modules/terraform-aws-route53/commit/0fa1069b85c5f0d001bb41969b899f4f7ffff218))
+
+## [3.1.0](https://github.com/terraform-aws-modules/terraform-aws-route53/compare/v3.0.0...v3.1.0) (2024-06-08)
+
+
+### Features
+
+* Add resolver-endpoints submodule ([#106](https://github.com/terraform-aws-modules/terraform-aws-route53/issues/106)) ([67b5cf3](https://github.com/terraform-aws-modules/terraform-aws-route53/commit/67b5cf322d4927a0c84e6e20538c05384c940f2b))
+
+## [3.0.0](https://github.com/terraform-aws-modules/terraform-aws-route53/compare/v2.11.1...v3.0.0) (2024-06-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* Add support for geoproximity routing policy. Upgraded TF version to 1.3.2 (#105)
+
+### Features
+
+* Add support for geoproximity routing policy. Upgraded TF version to 1.3.2 ([#105](https://github.com/terraform-aws-modules/terraform-aws-route53/issues/105)) ([461eef2](https://github.com/terraform-aws-modules/terraform-aws-route53/commit/461eef2a24eac18a513a3f7f6c5993c61cd8c73a))
+
+## [2.11.1](https://github.com/terraform-aws-modules/terraform-aws-route53/compare/v2.11.0...v2.11.1) (2024-03-07)
+
+
+### Bug Fixes
+
+* Update CI workflow versions to remove deprecated runtime warnings ([#104](https://github.com/terraform-aws-modules/terraform-aws-route53/issues/104)) ([ab3aed7](https://github.com/terraform-aws-modules/terraform-aws-route53/commit/ab3aed78c35c9a48b946f0f9788c2105216f5715))
+
+## [2.11.0](https://github.com/terraform-aws-modules/terraform-aws-route53/compare/v2.10.2...v2.11.0) (2023-12-15)
+
+
+### Features
+
+* Added static zone name output ([#102](https://github.com/terraform-aws-modules/terraform-aws-route53/issues/102)) ([bc63328](https://github.com/terraform-aws-modules/terraform-aws-route53/commit/bc63328714550fd903d2574b263833c9ce1c867e))
+
 ### [2.10.2](https://github.com/terraform-aws-modules/terraform-aws-route53/compare/v2.10.1...v2.10.2) (2023-01-24)
 
 
