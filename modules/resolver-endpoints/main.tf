@@ -9,7 +9,7 @@ resource "aws_route53_resolver_endpoint" "this" {
   name      = var.name
   direction = var.direction
 
-  resolver_endpoint_type = var.type
+  #resolver_endpoint_type = var.type
   security_group_ids     = local.security_group_ids
 
   dynamic "ip_address" {
@@ -21,7 +21,7 @@ resource "aws_route53_resolver_endpoint" "this" {
     }
   }
 
-  protocols = var.protocols
+  #protocols = var.protocols
 
   tags = var.tags
 }
